@@ -1,0 +1,52 @@
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  position: absolute;
+  top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  min-height: 30vh;
+}
+
+#player-profiles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  top: 10%;
+}
+
+.player1-container, .player2-container {
+  width: 45%;
+}
+.player1-container .player h1, .player2-container .player h1 {
+  display: flex;
+  color: rgb(0, 119, 255);
+  border-bottom: 1px solid rgb(165, 165, 165);
+}
+.player1-container .player .basic, .player2-container .player .basic {
+  display: flex;
+  flex-direction: column;
+}
+.player1-container .player .basic span, .player2-container .player .basic span {
+  color: grey;
+}
+.player1-container .player .stats, .player2-container .player .stats {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.player1-container .player .stats .type, .player1-container .player .stats .value, .player2-container .player .stats .type, .player2-container .player .stats .value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=App.css.map */

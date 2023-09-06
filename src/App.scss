@@ -1,0 +1,55 @@
+.stats{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main{
+  position: absolute;
+  top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section{
+  min-height: 30vh;
+}
+
+#player-profiles{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  top: 10%;
+}
+
+.player1-container, .player2-container{
+  width: 45%;
+  .player{
+    h1{
+      display: flex;
+      color: rgb(0, 119, 255);
+      border-bottom: 1px solid rgb(165, 165, 165);
+    }
+    .basic{
+      display: flex;
+      flex-direction: column;
+      span{
+        color: grey;
+      }
+    }
+    .stats{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      .type, .value{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}
